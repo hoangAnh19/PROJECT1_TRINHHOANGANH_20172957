@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project1_TrinhHoangAnh_2017
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baocao1", "Baocao1\Baocao1.csproj", "{E5456E87-F87B-470C-99EB-ACEA563AB159}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baocao2", "baocao3\Baocao2.csproj", "{7CC4577D-0A5F-4AA1-BD13-C136593EF03F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baocao2", "Baocao2\Baocao2.csproj", "{7CC4577D-0A5F-4AA1-BD13-C136593EF03F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
