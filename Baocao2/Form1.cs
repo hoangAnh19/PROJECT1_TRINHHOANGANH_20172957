@@ -28,7 +28,7 @@ namespace project1_trinhhoanganh_winform_taskmanagerr
             foreach (var item in processarr)
             {
                 ListViewItem newitem = new ListViewItem() { Text = item.ProcessName };
-               newitem.SubItems.Add(new ListViewItem.ListViewSubItem() { Text = item.PagedMemorySize64.ToString() });
+                newitem.SubItems.Add(new ListViewItem.ListViewSubItem() { Text = item.PagedMemorySize64.ToString() });
                 newitem.SubItems.Add(new ListViewItem.ListViewSubItem() { Text = item.VirtualMemorySize64.ToString() });
                 newitem.SubItems.Add(new ListViewItem.ListViewSubItem() { Text = item.WorkingSet64.ToString() });
                 listView1.Items.Add(newitem);
@@ -49,7 +49,7 @@ namespace project1_trinhhoanganh_winform_taskmanagerr
 
         private void runToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Process.Start(Application.StartupPath+"/project1_trinhhoanganh_winform_taskmanagerr.exe");
+            Process.Start(Application.StartupPath + "/project1_trinhhoanganh_winform_taskmanagerr.exe");
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -77,5 +77,5 @@ namespace project1_trinhhoanganh_winform_taskmanagerr
 
         }
     }
-    
+
 }

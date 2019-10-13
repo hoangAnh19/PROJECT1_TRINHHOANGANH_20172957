@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project1_TrinhHoangAnh_20172957", "Project1_TrinhHoangAnh_20172957\Project1_TrinhHoangAnh_20172957.csproj", "{E5F17468-31EC-42F0-8B9E-B60A5AE6A6A3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baocao1", "Baocao1\Baocao1.csproj", "{E5456E87-F87B-470C-99EB-ACEA563AB159}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baocao2", "Baocao2\Baocao2.csproj", "{7CC4577D-0A5F-4AA1-BD13-C136593EF03F}"
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E5F17468-31EC-42F0-8B9E-B60A5AE6A6A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E5F17468-31EC-42F0-8B9E-B60A5AE6A6A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E5F17468-31EC-42F0-8B9E-B60A5AE6A6A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E5F17468-31EC-42F0-8B9E-B60A5AE6A6A3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E5456E87-F87B-470C-99EB-ACEA563AB159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E5456E87-F87B-470C-99EB-ACEA563AB159}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5456E87-F87B-470C-99EB-ACEA563AB159}.Release|Any CPU.ActiveCfg = Release|Any CPU
