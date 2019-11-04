@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7CC4577D-0A5F-4AA1-BD13-C136593EF03F}</ProjectGuid>
+    <ProjectGuid>{05D59907-E9E2-4E65-8F84-B66D811297F0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>project1_trinhhoanganh_winform_taskmanagerr</RootNamespace>
     <AssemblyName>project1_trinhhoanganh_winform_taskmanagerr</AssemblyName>
