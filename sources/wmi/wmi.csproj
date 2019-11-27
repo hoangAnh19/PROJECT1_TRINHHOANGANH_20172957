@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{05D59907-E9E2-4E65-8F84-B66D811297F0}</ProjectGuid>
+    <ProjectGuid>{1AD25EC8-82EC-477E-8158-3D2B43CD738D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>project1_trinhhoanganh_winform_taskmanagerr</RootNamespace>
-    <AssemblyName>project1_trinhhoanganh_winform_taskmanagerr</AssemblyName>
+    <RootNamespace>wmi</RootNamespace>
+    <AssemblyName>wmi</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,9 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Form1.cs" />
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>

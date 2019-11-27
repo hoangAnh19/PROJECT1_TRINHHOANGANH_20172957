@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{05D59907-E9E2-4E65-8F84-B66D811297F0}</ProjectGuid>
+    <ProjectGuid>{A4BADF47-5A60-4325-B829-E5FE5AEE8682}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>project1_trinhhoanganh_winform_taskmanagerr</RootNamespace>
-    <AssemblyName>project1_trinhhoanganh_winform_taskmanagerr</AssemblyName>
+    <RootNamespace>ReadTxt_Richtextbox_baocao3</RootNamespace>
+    <AssemblyName>ReadTxt_Richtextbox_baocao3</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

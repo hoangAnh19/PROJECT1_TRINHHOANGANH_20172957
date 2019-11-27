@@ -76,6 +76,11 @@ namespace project1_trinhhoanganh_winform_taskmanagerr
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+         
+        }
     }
 
 }

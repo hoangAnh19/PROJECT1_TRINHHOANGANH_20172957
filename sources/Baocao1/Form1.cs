@@ -26,5 +26,15 @@ namespace Baocao1
         {
             MessageBox.Show("Dynamic button is clicked");
         }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox1_LinkClicked(object sender, LinkClickedEventArgs e)
+        {
+
+        }
     }
 }

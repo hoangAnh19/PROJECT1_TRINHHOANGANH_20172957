@@ -39,14 +39,16 @@
             this.runToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.optionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.process1 = new System.Diagnostics.Process();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.alwaysToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.miniToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hidenWhenMinimizedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.setDefautToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.process1 = new System.Diagnostics.Process();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,7 +62,7 @@
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(12, 36);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(776, 561);
+            this.listView1.Size = new System.Drawing.Size(563, 447);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -112,14 +114,14 @@
             // runToolStripMenuItem
             // 
             this.runToolStripMenuItem.Name = "runToolStripMenuItem";
-            this.runToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
+            this.runToolStripMenuItem.Size = new System.Drawing.Size(201, 30);
             this.runToolStripMenuItem.Text = "Run new task";
             this.runToolStripMenuItem.Click += new System.EventHandler(this.runToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(201, 30);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -133,6 +135,30 @@
             this.optionToolStripMenuItem.Name = "optionToolStripMenuItem";
             this.optionToolStripMenuItem.Size = new System.Drawing.Size(80, 29);
             this.optionToolStripMenuItem.Text = "Option";
+            // 
+            // alwaysToolStripMenuItem
+            // 
+            this.alwaysToolStripMenuItem.Name = "alwaysToolStripMenuItem";
+            this.alwaysToolStripMenuItem.Size = new System.Drawing.Size(277, 30);
+            this.alwaysToolStripMenuItem.Text = "Always on top";
+            // 
+            // miniToolStripMenuItem
+            // 
+            this.miniToolStripMenuItem.Name = "miniToolStripMenuItem";
+            this.miniToolStripMenuItem.Size = new System.Drawing.Size(277, 30);
+            this.miniToolStripMenuItem.Text = "Minimize on use";
+            // 
+            // hidenWhenMinimizedToolStripMenuItem
+            // 
+            this.hidenWhenMinimizedToolStripMenuItem.Name = "hidenWhenMinimizedToolStripMenuItem";
+            this.hidenWhenMinimizedToolStripMenuItem.Size = new System.Drawing.Size(277, 30);
+            this.hidenWhenMinimizedToolStripMenuItem.Text = "Hiden when minimized";
+            // 
+            // setDefautToolStripMenuItem
+            // 
+            this.setDefautToolStripMenuItem.Name = "setDefautToolStripMenuItem";
+            this.setDefautToolStripMenuItem.Size = new System.Drawing.Size(277, 30);
+            this.setDefautToolStripMenuItem.Text = "Set defaut tab";
             // 
             // viewToolStripMenuItem
             // 
@@ -162,35 +188,32 @@
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // alwaysToolStripMenuItem
+            // button1
             // 
-            this.alwaysToolStripMenuItem.Name = "alwaysToolStripMenuItem";
-            this.alwaysToolStripMenuItem.Size = new System.Drawing.Size(277, 30);
-            this.alwaysToolStripMenuItem.Text = "Always on top";
+            this.button1.Location = new System.Drawing.Point(20, 44);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // miniToolStripMenuItem
+            // button2
             // 
-            this.miniToolStripMenuItem.Name = "miniToolStripMenuItem";
-            this.miniToolStripMenuItem.Size = new System.Drawing.Size(277, 30);
-            this.miniToolStripMenuItem.Text = "Minimize on use";
-            // 
-            // hidenWhenMinimizedToolStripMenuItem
-            // 
-            this.hidenWhenMinimizedToolStripMenuItem.Name = "hidenWhenMinimizedToolStripMenuItem";
-            this.hidenWhenMinimizedToolStripMenuItem.Size = new System.Drawing.Size(277, 30);
-            this.hidenWhenMinimizedToolStripMenuItem.Text = "Hiden when minimized";
-            // 
-            // setDefautToolStripMenuItem
-            // 
-            this.setDefautToolStripMenuItem.Name = "setDefautToolStripMenuItem";
-            this.setDefautToolStripMenuItem.Size = new System.Drawing.Size(277, 30);
-            this.setDefautToolStripMenuItem.Text = "Set defaut tab";
+            this.button2.Location = new System.Drawing.Point(644, 464);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Demo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(817, 625);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -225,6 +248,8 @@
         private System.Windows.Forms.ToolStripMenuItem miniToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem hidenWhenMinimizedToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem setDefautToolStripMenuItem;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }
 
