@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("wmi")]
+[assembly: AssemblyTitle("wmi_exe")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("wmi")]
+[assembly: AssemblyProduct("wmi_exe")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("1ad25ec8-82ec-477e-8158-3d2b43cd738d")]
+[assembly: Guid("0c1b426d-f4f1-4e4a-bed4-05a4a0ec3029")]
 
 // Version information for an assembly consists of the following four values:
 //

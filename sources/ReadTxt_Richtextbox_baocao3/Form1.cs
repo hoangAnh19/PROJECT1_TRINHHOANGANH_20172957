@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Drawing;
+using System.Drawing;   
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,6 +24,15 @@ namespace ReadTxt_Richtextbox_baocao3
             richTextBox1.Text = reader.ReadToEnd();
 
             reader.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string commandText = @"/c ipconfig";
+
+            System.Diagnostics.Process.Start("CMD.exe", commandText);
+            Console.ReadLine();
+           
         }
     }
 }

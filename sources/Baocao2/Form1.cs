@@ -49,7 +49,9 @@ namespace project1_trinhhoanganh_winform_taskmanagerr
 
         private void runToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Process.Start(Application.StartupPath + "/project1_trinhhoanganh_winform_taskmanagerr.exe");
+            //  Process.Start(Application.StartupPath + "/project1_trinhhoanganh_winform_taskmanagerr.exe");
+            Process.Start(Application.StartupPath + "/9.iff_else.exe");
+
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)

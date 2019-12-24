@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1AD25EC8-82EC-477E-8158-3D2B43CD738D}</ProjectGuid>
+    <ProjectGuid>{0C1B426D-F4F1-4E4A-BED4-05A4A0EC3029}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>wmi</RootNamespace>
-    <AssemblyName>wmi</AssemblyName>
+    <RootNamespace>wmi_exe</RootNamespace>
+    <AssemblyName>wmi_exe</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -47,14 +47,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs" />
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="index.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="index.Designer.cs">
+      <DependentUpon>index.cs</DependentUpon>
+    </Compile>
+    <Compile Include="infosys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="infosys.Designer.cs">
+      <DependentUpon>infosys.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="source.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="source.Designer.cs">
+      <DependentUpon>source.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="source.resx">
+      <DependentUpon>source.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="index.resx">
+      <DependentUpon>index.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="infosys.resx">
+      <DependentUpon>infosys.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

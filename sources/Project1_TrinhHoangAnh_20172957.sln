@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baocao2", "Baocao2\Baocao2.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadTxt_Richtextbox_baocao3", "ReadTxt_Richtextbox_baocao3\ReadTxt_Richtextbox_baocao3.csproj", "{A4BADF47-5A60-4325-B829-E5FE5AEE8682}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm", "wmi_exe\Algorithm.csproj", "{0C1B426D-F4F1-4E4A-BED4-05A4A0EC3029}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A4BADF47-5A60-4325-B829-E5FE5AEE8682}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4BADF47-5A60-4325-B829-E5FE5AEE8682}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4BADF47-5A60-4325-B829-E5FE5AEE8682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C1B426D-F4F1-4E4A-BED4-05A4A0EC3029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C1B426D-F4F1-4E4A-BED4-05A4A0EC3029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C1B426D-F4F1-4E4A-BED4-05A4A0EC3029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C1B426D-F4F1-4E4A-BED4-05A4A0EC3029}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

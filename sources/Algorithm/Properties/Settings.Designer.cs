@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace wmi.Properties
+namespace wmi_exe.Properties
 {
 
 
