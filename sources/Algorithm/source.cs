@@ -11,7 +11,7 @@ using System.Management;
 using System.Diagnostics;
 using System.IO;
 
-namespace wmi_exe
+namespace Algorithm
 {
     public partial class source : Form
     {
@@ -65,7 +65,7 @@ namespace wmi_exe
             Process.Start(Application.StartupPath + s3);
         }
 
-       
+
         private void button5_Click_1(object sender, EventArgs e)
         {
             if (comboBox1.Text == "Đề bài")
@@ -76,19 +76,35 @@ namespace wmi_exe
                 string s3 = "/Debug/code_c/Baitoan " + s2 + s1;
 
                 Process.Start(Application.StartupPath + s3);
-
-
             }
             else
             {
-                string s1 = " Source.txt";
-                string s2 = num.Value.ToString();
-                string s3 = "/Debug/code_c/Baitoan " + s2 + s1;
-
-                Process.Start(Application.StartupPath + s3);
 
 
 
+
+                if (comboBox1.Text == "Đáp án")
+                {
+                    string s1 = ".exe";
+                    string s2 = num.Value.ToString();
+                    string s3 = "/Debug/code_c/Baitoan " + s2 + s1;
+                    Process.Start(Application.StartupPath + s3);
+
+                }
+
+
+
+                else
+                {
+                    string s1 = " Source.txt";
+                    string s2 = num.Value.ToString();
+                    string s3 = "/Debug/code_c/Baitoan " + s2 + s1;
+
+                    Process.Start(Application.StartupPath + s3);
+
+
+
+                }
             }
         }
 
@@ -115,6 +131,14 @@ namespace wmi_exe
             if (colorDialog1.ShowDialog() == DialogResult.OK)
             {
                 this.BackColor = colorDialog1.Color;
+            }
+        }
+
+        private void đổiFontChữToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (fontDialog1.ShowDialog() == DialogResult.OK)
+            {
+                this.Font = fontDialog1.Font;
             }
         }
     }

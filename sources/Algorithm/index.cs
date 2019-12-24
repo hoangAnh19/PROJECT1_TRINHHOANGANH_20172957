@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
 
-namespace wmi_exe
+namespace Algorithm
 {
     public partial class index : Form
     {
@@ -62,6 +62,14 @@ namespace wmi_exe
             }
         }
 
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            if( fontDialog1.ShowDialog()==DialogResult.OK )
+            {
+                this.Font = fontDialog1.Font;
+            }
+        }
 
+       
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace wmi_exe
+﻿namespace Algorithm
 {
     partial class infosys
     {
@@ -40,14 +40,17 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.optionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.đổiMàuNềnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.colorbackground = new System.Windows.Forms.ColorDialog();
             this.mởTabMớiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.đổiFontChữToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.colorbackground = new System.Windows.Forms.ColorDialog();
+            this.fontDialog1 = new System.Windows.Forms.FontDialog();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnTen
             // 
             this.btnTen.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnTen.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnTen.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTen.Location = new System.Drawing.Point(415, 53);
             this.btnTen.Name = "btnTen";
@@ -59,7 +62,8 @@
             // 
             // btnRAm
             // 
-            this.btnRAm.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnRAm.BackColor = System.Drawing.Color.Orange;
+            this.btnRAm.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnRAm.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRAm.Location = new System.Drawing.Point(415, 284);
             this.btnRAm.Name = "btnRAm";
@@ -72,6 +76,7 @@
             // btnPath
             // 
             this.btnPath.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnPath.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnPath.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPath.Location = new System.Drawing.Point(415, 204);
             this.btnPath.Name = "btnPath";
@@ -84,6 +89,7 @@
             // btnSys
             // 
             this.btnSys.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnSys.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnSys.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSys.Location = new System.Drawing.Point(415, 136);
             this.btnSys.Name = "btnSys";
@@ -132,7 +138,6 @@
             this.label4.TabIndex = 11;
             this.label4.Text = "Môi trường được cài đặt";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-   //         this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -153,7 +158,7 @@
             this.optionToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 33);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 35);
             this.menuStrip1.TabIndex = 13;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -161,24 +166,33 @@
             // 
             this.optionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.đổiMàuNềnToolStripMenuItem,
-            this.mởTabMớiToolStripMenuItem});
+            this.mởTabMớiToolStripMenuItem,
+            this.đổiFontChữToolStripMenuItem});
+            this.optionToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.optionToolStripMenuItem.Name = "optionToolStripMenuItem";
-            this.optionToolStripMenuItem.Size = new System.Drawing.Size(80, 29);
+            this.optionToolStripMenuItem.Size = new System.Drawing.Size(90, 31);
             this.optionToolStripMenuItem.Text = "Option";
             // 
             // đổiMàuNềnToolStripMenuItem
             // 
             this.đổiMàuNềnToolStripMenuItem.Name = "đổiMàuNềnToolStripMenuItem";
-            this.đổiMàuNềnToolStripMenuItem.Size = new System.Drawing.Size(198, 30);
+            this.đổiMàuNềnToolStripMenuItem.Size = new System.Drawing.Size(219, 32);
             this.đổiMàuNềnToolStripMenuItem.Text = "Đổi màu nền";
             this.đổiMàuNềnToolStripMenuItem.Click += new System.EventHandler(this.đổiMàuNềnToolStripMenuItem_Click);
             // 
             // mởTabMớiToolStripMenuItem
             // 
             this.mởTabMớiToolStripMenuItem.Name = "mởTabMớiToolStripMenuItem";
-            this.mởTabMớiToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
+            this.mởTabMớiToolStripMenuItem.Size = new System.Drawing.Size(219, 32);
             this.mởTabMớiToolStripMenuItem.Text = "Mở tab mới";
             this.mởTabMớiToolStripMenuItem.Click += new System.EventHandler(this.mởTabMớiToolStripMenuItem_Click_1);
+            // 
+            // đổiFontChữToolStripMenuItem
+            // 
+            this.đổiFontChữToolStripMenuItem.Name = "đổiFontChữToolStripMenuItem";
+            this.đổiFontChữToolStripMenuItem.Size = new System.Drawing.Size(219, 32);
+            this.đổiFontChữToolStripMenuItem.Text = "Đổi font chữ";
+            this.đổiFontChữToolStripMenuItem.Click += new System.EventHandler(this.đổiFontChữToolStripMenuItem_Click);
             // 
             // infosys
             // 
@@ -223,5 +237,7 @@
         private System.Windows.Forms.ToolStripMenuItem đổiMàuNềnToolStripMenuItem;
         private System.Windows.Forms.ColorDialog colorbackground;
         private System.Windows.Forms.ToolStripMenuItem mởTabMớiToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem đổiFontChữToolStripMenuItem;
+        private System.Windows.Forms.FontDialog fontDialog1;
     }
 }

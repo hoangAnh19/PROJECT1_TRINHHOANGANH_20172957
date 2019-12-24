@@ -1,4 +1,4 @@
-﻿namespace wmi_exe
+﻿namespace Algorithm
 {
     partial class index
     {
@@ -35,15 +35,19 @@
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mởTabMớiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.đỏiMàuNềnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.colorbackground = new System.Windows.Forms.ColorDialog();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.fontDialog1 = new System.Windows.Forms.FontDialog();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnInfosys
             // 
             this.btnInfosys.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnInfosys.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnInfosys.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInfosys.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnInfosys.Location = new System.Drawing.Point(98, 115);
             this.btnInfosys.Name = "btnInfosys";
             this.btnInfosys.Size = new System.Drawing.Size(189, 107);
@@ -55,6 +59,10 @@
             // btnProcess
             // 
             this.btnProcess.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnProcess.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
+            this.btnProcess.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow;
+            this.btnProcess.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnProcess.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnProcess.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProcess.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnProcess.Location = new System.Drawing.Point(358, 115);
@@ -72,7 +80,7 @@
             this.fileToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(642, 33);
+            this.menuStrip1.Size = new System.Drawing.Size(642, 35);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -80,25 +88,33 @@
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mởTabMớiToolStripMenuItem,
-            this.đỏiMàuNềnToolStripMenuItem});
-            this.fileToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.đỏiMàuNềnToolStripMenuItem,
+            this.toolStripMenuItem2});
+            this.fileToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(84, 29);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(90, 31);
             this.fileToolStripMenuItem.Text = "Option";
             // 
             // mởTabMớiToolStripMenuItem
             // 
             this.mởTabMớiToolStripMenuItem.Name = "mởTabMớiToolStripMenuItem";
-            this.mởTabMớiToolStripMenuItem.Size = new System.Drawing.Size(208, 30);
+            this.mởTabMớiToolStripMenuItem.Size = new System.Drawing.Size(219, 32);
             this.mởTabMớiToolStripMenuItem.Text = "Mở tab mới";
             this.mởTabMớiToolStripMenuItem.Click += new System.EventHandler(this.mởTabMớiToolStripMenuItem_Click);
             // 
             // đỏiMàuNềnToolStripMenuItem
             // 
             this.đỏiMàuNềnToolStripMenuItem.Name = "đỏiMàuNềnToolStripMenuItem";
-            this.đỏiMàuNềnToolStripMenuItem.Size = new System.Drawing.Size(208, 30);
+            this.đỏiMàuNềnToolStripMenuItem.Size = new System.Drawing.Size(219, 32);
             this.đỏiMàuNềnToolStripMenuItem.Text = "Đỏi màu nền";
             this.đỏiMàuNềnToolStripMenuItem.Click += new System.EventHandler(this.đỏiMàuNềnToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(219, 32);
+            this.toolStripMenuItem2.Text = "Đổi font chữ";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // index
             // 
@@ -130,5 +146,7 @@
         private System.Windows.Forms.ToolStripMenuItem mởTabMớiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem đỏiMàuNềnToolStripMenuItem;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.FontDialog fontDialog1;
     }
 }

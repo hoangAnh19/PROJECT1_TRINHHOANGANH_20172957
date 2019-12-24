@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.Management;
 using System.Diagnostics;
 
-namespace wmi_exe
+namespace Algorithm
 {
     public partial class infosys : Form
     {
@@ -84,6 +84,14 @@ namespace wmi_exe
         {
             infosys in1 = new infosys();
             in1.Show();
+        }
+
+        private void đổiFontChữToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (fontDialog1.ShowDialog() == DialogResult.OK)
+            {
+                this.Font = fontDialog1.Font;
+            }
         }
     }
 }
