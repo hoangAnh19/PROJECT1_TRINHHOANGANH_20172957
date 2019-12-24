@@ -25,8 +25,8 @@ namespace Algorithm
 
             string s1 = ".txt";
             string s2 = num.Value.ToString();
-            string s3 = "Debug/code_c/Baitoan " + s2 + s1;
-            TextReader reader = new StreamReader(s3);
+            string s3 = "code_c/Baitoan " + s2 + s1;
+            TextReader reader = new StreamReader (s3); ;
             richTxt.Text = reader.ReadToEnd();
 
             reader.Close();
@@ -36,7 +36,7 @@ namespace Algorithm
         {
             string s1 = ".exe";
             string s2 = num.Value.ToString();
-            string s3 = "/Debug/code_c/Baitoan " + s2 + s1;
+            string s3 = "/code_c/Baitoan " + s2 + s1;
             Process.Start(Application.StartupPath + s3);
         }
 
@@ -44,7 +44,7 @@ namespace Algorithm
         {
             string s1 = " Source.txt";
             string s2 = num.Value.ToString();
-            string s3 = "Debug/code_c/Baitoan " + s2 + s1;
+            string s3 = "code_c/Baitoan " + s2 + s1;
             TextReader reader = new StreamReader(s3);
             richTxt.Text = reader.ReadToEnd();
 
@@ -56,57 +56,7 @@ namespace Algorithm
             MessageBox.Show("Nhập bài toán cần tìm vào ô tìm kiếm phía dưới, ví dụ 1, 2 ,3 ...", "Hướng dẫn", MessageBoxButtons.OK);
         }
 
-        private void button5_Click(object sender, EventArgs e)
-        {
-            string s1 = ".txt";
-            string s2 = num.Value.ToString();
-            string s3 = "/Debug/code_c/Baitoan " + s2 + s1;
-
-            Process.Start(Application.StartupPath + s3);
-        }
-
-
-        private void button5_Click_1(object sender, EventArgs e)
-        {
-            if (comboBox1.Text == "Đề bài")
-
-            {
-                string s1 = ".txt";
-                string s2 = num.Value.ToString();
-                string s3 = "/Debug/code_c/Baitoan " + s2 + s1;
-
-                Process.Start(Application.StartupPath + s3);
-            }
-            else
-            {
-
-
-
-
-                if (comboBox1.Text == "Đáp án")
-                {
-                    string s1 = ".exe";
-                    string s2 = num.Value.ToString();
-                    string s3 = "/Debug/code_c/Baitoan " + s2 + s1;
-                    Process.Start(Application.StartupPath + s3);
-
-                }
-
-
-
-                else
-                {
-                    string s1 = " Source.txt";
-                    string s2 = num.Value.ToString();
-                    string s3 = "/Debug/code_c/Baitoan " + s2 + s1;
-
-                    Process.Start(Application.StartupPath + s3);
-
-
-
-                }
-            }
-        }
+     
 
         
         private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
@@ -139,6 +89,48 @@ namespace Algorithm
             if (fontDialog1.ShowDialog() == DialogResult.OK)
             {
                 this.Font = fontDialog1.Font;
+            }
+        }
+
+        private void button5_Click_1(object sender, EventArgs e)
+        {
+            if (comboBox1.Text == "Đề bài")
+
+            {
+                string s1 = ".txt";
+                string s2 = num.Value.ToString();
+                string s3 = "/code_c/Baitoan " + s2 + s1;
+
+                Process.Start(Application.StartupPath + s3);
+            }
+            else
+            {
+
+
+
+
+                if (comboBox1.Text == "Đáp án")
+                {
+                    string s1 = ".exe";
+                    string s2 = num.Value.ToString();
+                    string s3 = "/code_c/Baitoan " + s2 + s1;
+                    Process.Start(Application.StartupPath + s3);
+
+                }
+
+
+
+                else
+                {
+                    string s1 = " Source.txt";
+                    string s2 = num.Value.ToString();
+                    string s3 = "/code_c/Baitoan " + s2 + s1;
+
+                    Process.Start(Application.StartupPath + s3);
+
+
+
+                }
             }
         }
     }

@@ -1,0 +1,9 @@
+Một bộ ba Pythagore là một bộ gồm ba số tự nhiên, một < b < c , trong đó,
+
+a 2 + b 2 = c 2
+Ví dụ: 3 2 + 4 2 = 9 + 16 = 25 = 5 2 .
+
+Tồn tại chính xác một bộ ba Pythagore mà a + b + c = 1000.
+Tìm sản phẩm abc .
+
+https://projecteuler.net/problem=9

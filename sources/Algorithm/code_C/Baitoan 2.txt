@@ -1,0 +1,6 @@
+Mỗi thuật ngữ mới trong chuỗi Fibonacci được tạo bằng cách thêm hai thuật ngữ trước đó.  
+Bằng cách bắt đầu bằng 1 và 2, 10 thuật ngữ đầu tiên sẽ là: 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ... 
+Bằng cách xem xét các thuật ngữ trong chuỗi Fibonacci có giá trị không vượt quá  bốn triệu, 
+tìm tổng của các điều khoản có giá trị chẵn.
+
+https://projecteuler.net/problem=2

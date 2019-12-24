@@ -1,0 +1,4 @@
+Bằng cách liệt kê sáu số nguyên tố đầu tiên: 2, 3, 5, 7, 11 và 13,
+ chúng ta có thể thấy rằng số nguyên tố thứ 6 là 13.
+
+Số nguyên tố 10 001 là gì?

@@ -1,0 +1,11 @@
+Nếu các số từ 1 đến 5 được viết ra bằng các từ: một, hai, ba, bốn, năm, thì có 3 + 3 + 5 + 4 + 4 = 19 chữ cái
+được sử dụng trong tổng số.
+
+Nếu tất cả các số từ 1 đến 1000 (một nghìn) được bao gồm bằng chữ, thì có bao nhiêu chữ cái sẽ được sử dụng?
+
+
+LƯU Ý: Không tính khoảng trắng hoặc dấu gạch nối. Ví dụ: 342 (ba trăm bốn mươi hai) chứa 23 chữ cái 
+và 115 (một trăm mười lăm) chứa 20 chữ cái. 
+Việc sử dụng "và" khi viết ra các số phù hợp với cách sử dụng của Anh.
+
+https://projecteuler.net/problem=17

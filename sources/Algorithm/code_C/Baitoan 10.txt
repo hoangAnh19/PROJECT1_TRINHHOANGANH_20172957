@@ -1,0 +1,5 @@
+Tổng các số nguyên tố dưới 10 là 2 + 3 + 5 + 7 = 17.
+
+Tìm tổng của tất cả các số nguyên tố dưới hai triệu.
+
+https://projecteuler.net/problem=10

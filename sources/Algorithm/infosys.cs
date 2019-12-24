@@ -27,7 +27,7 @@ namespace Algorithm
         
         private void btnPath_Click(object sender, EventArgs e)
         {
-            Process.Start(Application.StartupPath + "/wmi/Environment.exe");
+            Process.Start(Application.StartupPath +"/wmi/Environment.exe");
 
         }
 

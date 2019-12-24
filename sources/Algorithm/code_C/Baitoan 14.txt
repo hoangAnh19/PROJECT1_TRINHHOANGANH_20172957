@@ -1,0 +1,15 @@
+Trình tự lặp sau đây được xác định cho tập hợp các số nguyên dương:
+
+n → n / 2 ( n là chẵn)
+n → 3 n + 1 ( n là số lẻ)
+
+Sử dụng quy tắc trên và bắt đầu với 13, chúng tôi tạo ra chuỗi sau:
+
+13 → 40 → 20 → 10 → 5 → 16 → 8 → 4 → 2 → 1
+Có thể thấy rằng chuỗi này (bắt đầu từ 13 và kết thúc ở 1) chứa 10 điều khoản. Mặc dù nó chưa được chứng minh (Vấn đề Collatz), người ta cho rằng tất cả các số bắt đầu kết thúc ở 1.
+
+Số bắt đầu nào, dưới một triệu, tạo ra chuỗi dài nhất?
+
+LƯU Ý: Khi chuỗi bắt đầu, các điều khoản được phép vượt quá một triệu.
+
+https://projecteuler.net/problem=14
