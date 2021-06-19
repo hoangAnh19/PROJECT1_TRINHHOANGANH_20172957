@@ -1,0 +1,6 @@
+2520 là số nhỏ nhất có thể được chia cho mỗi số từ 1 đến 10 mà không có phần còn lại.
+
+Số dương nhỏ nhất chia hết cho tất cả các số từ 1 đến 20 là bao nhiêu?
+
+
+https://projecteuler.net/problem=5

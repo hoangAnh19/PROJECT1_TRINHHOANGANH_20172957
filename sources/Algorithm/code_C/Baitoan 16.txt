@@ -1,0 +1,5 @@
+2 15 = 32768 và tổng các chữ số của nó là 3 + 2 + 7 + 6 + 8 = 26.
+
+Tổng các chữ số của số 2 1000 là gì?
+
+https://projecteuler.net/problem=16

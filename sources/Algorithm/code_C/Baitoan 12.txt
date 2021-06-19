@@ -1,0 +1,19 @@
+Chuỗi các số tam giác được tạo ra bằng cách thêm các số tự nhiên. Vậy số tam giác thứ 7 sẽ là 1 + 2 + 3 + 4 + 5 + 6 + 7 = 28. Mười số hạng đầu tiên sẽ là:
+
+1, 3, 6, 10, 15, 21, 28, 36, 45, 55, ...
+
+Hãy để chúng tôi liệt kê các yếu tố của bảy số tam giác đầu tiên:
+
+ 1 : 1
+ 3 : 1,3
+ 6 : 1,2,3,6
+10 : 1,2,5,10
+15 : 1,3,5,15
+21 : 1,3,7,21
+28 : 1,2, 4,7,14,28
+Chúng ta có thể thấy rằng 28 là số tam giác đầu tiên có hơn năm ước.
+
+Giá trị của số tam giác đầu tiên có hơn năm trăm ước là gì?
+
+
+https://projecteuler.net/problem=12

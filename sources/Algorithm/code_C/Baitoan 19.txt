@@ -1,0 +1,16 @@
+Bạn được cung cấp các thông tin sau, nhưng bạn có thể muốn thực hiện một số nghiên cứu cho chính mình.
+
+Ngày 1 tháng 1 năm 1900 là thứ Hai.
+Ba mươi ngày có tháng chín,
+tháng tư, tháng sáu và tháng mười một.
+Tất cả những người còn lại có ba mươi mốt,
+Cứu tháng hai một mình, trong
+đó có hai mươi tám, mưa hay nắng.
+Và vào những năm nhuận, hai mươi chín.
+Một năm nhuận xảy ra vào bất kỳ năm nào chia hết cho 4,
+ nhưng không phải là một thế kỷ trừ khi nó chia hết cho 400.
+Có bao nhiêu ngày chủ nhật rơi vào ngày đầu tiên của tháng trong thế kỷ XX
+ (1 tháng 1 năm 1901 đến 31 tháng 12 năm 2000)?
+
+
+https://projecteuler.net/problem=19

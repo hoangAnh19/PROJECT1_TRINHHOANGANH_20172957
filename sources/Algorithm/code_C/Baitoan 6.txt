@@ -1,0 +1,11 @@
+Tổng bình phương của mười số tự nhiên đầu tiên là,
+
+1 2 + 2 2 + ... + 10 2 = 385
+Bình phương tổng của mười số tự nhiên đầu tiên là,
+
+(1 + 2 + ... + 10) 2 = 55 2 = 3025
+Do đó, sự khác biệt giữa tổng bình phương của mười số tự nhiên đầu tiên và bình phương của tổng là 3025 - 385 = 2640.
+
+Tìm sự khác biệt giữa tổng bình phương của một trăm số tự nhiên đầu tiên và bình phương của tổng.
+
+https://projecteuler.net/problem=6
